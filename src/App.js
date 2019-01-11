@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import AppBar from './component/AppBar';
+import Slider from './component/Slider';
 import './App.css';
 
 class App extends Component {
@@ -7,6 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <AppBar style={{ backgroundColor: 'rgba(0,0,0,.8)' }} />
+        <Slider />
         <header className="App-header">
           <p>
             Edit <code>src/App.js</code> and save to reload.
